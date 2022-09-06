@@ -1,0 +1,29 @@
+.menu{
+
+    font-family: 'Arial';
+    list-style: none;
+    border: 1 px solid #C0C0C0;
+    float: left;
+}
+.menu li {
+    position:relative;
+    float: left;
+    border-right: 1px solid #C0C0C0;
+}
+.menu li a{color: black;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+}
+.menu li a:hover{background: #333333;
+color: #FFFFFF;}
+.menu li ul{position: absolute;
+            top: 24px;    
+            left: 0;    
+            display: none;
+            background: #FFFFFF;
+}
+.menu li:hover ul {display: block;}
+.menu li ul li{border: 1px solid #C0C0C0;
+                width: 150px;
+                display:block;}
